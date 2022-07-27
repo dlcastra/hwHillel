@@ -15,8 +15,8 @@ print(manywd, type(manywd))
 
 # third example
 
-nd_a = 6
-nb_b = nd_a + 87
+nb_a = 6
+nb_b = nb_a + 87
 nb_c = nb_b % 2
 print(nb_b, type(nb_b))
 print(nb_c, type(nb_c))
