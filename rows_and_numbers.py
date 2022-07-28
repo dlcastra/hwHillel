@@ -1,4 +1,5 @@
 # head a program
+import math
 
 user_name = input("Tell mi your name. I'm:")
 greetings = f"Hi {user_name}! I want to surprise you! :D"
@@ -8,7 +9,7 @@ f_nb = float(input("What is you favorite number? \nMy favorite number is:"))
 
 f_nb_non_flt = int(f_nb)
 degree = f_nb_non_flt ** 4
-sq_root = f_nb_non_flt * 0.5
+sq_root = math.sqrt(f_nb_non_flt)
 rmdr = f_nb_non_flt % 2
 
 print(greetings)
