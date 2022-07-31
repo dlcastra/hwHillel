@@ -39,7 +39,6 @@ print(comp_nb_with_oper)
 # fifth task
 
 comp_str_with_exp = bool("") < 10 - 1
-comp_str_with_exp1 = bool("") <= 10 - 1
 comp_str_with_exp2 = bool("") != 10 - 1
 
 print(comp_str_with_exp)
