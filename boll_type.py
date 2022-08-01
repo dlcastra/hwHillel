@@ -1,6 +1,6 @@
 #first task
 
-comparison_nuber: bool = 3 < 5
+comparison_nuber: bool = 3 != 5
 
 print(comparison_nuber)
 
