@@ -9,19 +9,19 @@ try:
     s_num = int(s_num)
     if operation == '+':
         result = f_num + s_num
-        # print(result)
+
     elif operation == '-':
         result = f_num - s_num
-        # print(result)
+
     elif operation == '*':
         result = f_num * s_num
-        # print(result)
+
     elif operation == '/':
         result = f_num / s_num
-        # print(result)
+
     elif operation == '**':
         result = f_num ** s_num
-        # print(result)
+
     else:
         print("Error: An invalid character was entered!")
     print(f'You result = {result}', type(result))
@@ -34,19 +34,19 @@ except ValueError:
     s_num = float(s_num)
     if operation == '+':
         result = f_num + s_num
-        # print(result)
+
     elif operation == '-':
         result = f_num - s_num
-        # print(result)
+
     elif operation == '*':
         result = f_num * s_num
-        # print(result)
+
     elif operation == '/':
         result = f_num / s_num
-        # print(result)
+
     elif operation == '**':
         result = f_num ** s_num
-        # print(result)
+
     else:
         print("Error: An invalid character was entered!")
     print(f'You result = {result}', type(result))
