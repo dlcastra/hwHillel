@@ -1,5 +1,5 @@
-
 something_latter = input('input something:')
+
 capital_letters = ""
 spaces = ""
 vowels_list = ""
@@ -11,23 +11,20 @@ for index, letter in enumerate(something_latter):
         capital_letters += letter
 
     if letter == " ":
-        spaces += str(index, ) + "; "
+        spaces += str(index) + ";"
 
-    if letter.lower() in 'a e i o u':
+    if letter.lower() in 'aeiouAUIOE':
         vowels_list += letter
 
     if letter.isdigit():
         counter += 1
-
         if counter == 3:
-            print("Sorry, but you have too many numbers in a row")
+            print("Sorry, but you have too many numbers in a row\n")
             break
-        if letter == str():
-            counter = 0
-            continue
+    else:
+        counter = 0
 
-if counter != 3:
-    print(capital_letters)
-    print(spaces)
-    print(vowels_list)
-    print('Correct end of the cycle')
+print(f"Letter ir high register capital letters = {capital_letters}\n")
+print(f"All whitespace indexes spaces = {spaces}\n")
+print(f"All vowels vowels_list = {vowels_list}\n")
+print('Correct end of the cycle')
