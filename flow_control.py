@@ -1,53 +1,32 @@
 # CALCULATOR
 print("instruction:\nSUM is: +\nDIFFERENCE is: -\nMULTIPLICATION is: *\nDIVISION is: /\nEXPONENTIATION is: **")
-f_num = input("First number =")
-s_num = input("Second number =")
+first_num = input("First number =")
+second_num = input("Second number =")
 operation = input("Your operation is: ")
+result = 0
 
 try:
-    f_num = int(f_num)
-    s_num = int(s_num)
-    if operation == '+':
-        result = f_num + s_num
+    operand_1 = int(first_num) if first_num.isdigit() else float(first_num)
+    operand_2 = int(second_num) if second_num.isdigit() else float(second_num)
+    if operation == "+":
+        result = operand_1 + operand_2
 
-    elif operation == '-':
-        result = f_num - s_num
+    elif operation == "-":
+        result = operand_1 - operand_2
 
-    elif operation == '*':
-        result = f_num * s_num
+    elif operation == "*":
+        result = operand_1 * operand_2
 
-    elif operation == '/':
-        result = f_num / s_num
+    elif operation == "/":
+        result = operand_1 / operand_2
 
-    elif operation == '**':
-        result = f_num ** s_num
+    elif operation == "**":
+        result = operand_1 ** operand_2
 
-    else:
-        print("Error: An invalid character was entered!")
-    print(f'You result = {result}', type(result))
-
+    print(f"Your result = {result}")
+# block error
 except ZeroDivisionError:
-    print('Are you serious?1')
+    print('Are you serious??!')
 
-except ValueError:
-    f_num = float(f_num)
-    s_num = float(s_num)
-    if operation == '+':
-        result = f_num + s_num
-
-    elif operation == '-':
-        result = f_num - s_num
-
-    elif operation == '*':
-        result = f_num * s_num
-
-    elif operation == '/':
-        result = f_num / s_num
-
-    elif operation == '**':
-        result = f_num ** s_num
-
-    else:
-        print("Error: An invalid character was entered!")
-    print(f'You result = {result}', type(result))
-
+except Exception as error:
+    print("Please don't use alphabet")
