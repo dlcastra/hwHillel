@@ -1,4 +1,7 @@
+
 print("instruction:\nSUM is: +\nDIFFERENCE is: -\nMULTIPLICATION is: *\nDIVISION is: /\nEXPONENTIATION is: **")
+print("If you want to exit the program enter: exit ")
+
 while True:
 
     first_num = input("First number =")
