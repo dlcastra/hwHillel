@@ -1,4 +1,4 @@
-something_latter = input('input something:')
+something_latter = input('Input something:')
 
 capital_letters = ""
 spaces = ""
@@ -13,7 +13,7 @@ for index, letter in enumerate(something_latter):
     if letter == " ":
         spaces += str(index) + ";"
 
-    if letter.lower() in 'aeiouAUIOE':
+    if letter.lower() in 'a e i o u':
         vowels_list += letter
 
     if letter.isdigit():
