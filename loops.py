@@ -24,7 +24,8 @@ for index, letter in enumerate(something_latter):
     else:
         counter = 0
 
+if counter != 3:
+    print('Correct end of the cycle\n')
 print(f"Letter ir high register capital letters = {capital_letters}\n")
 print(f"All whitespace indexes spaces = {spaces}\n")
 print(f"All vowels vowels_list = {vowels_list}\n")
-print('Correct end of the cycle')
