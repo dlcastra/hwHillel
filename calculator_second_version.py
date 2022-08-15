@@ -4,13 +4,13 @@ print("If you want to exit the program enter: exit ")
 
 while True:
 
-    first_num = input("First number =")
+    first_num = input("First number =",)
     if first_num == "exit":
         break
-    second_num = input("Second number =")
+    second_num = input("\nSecond number =")
     if second_num == "exit":
         break
-    operation = input("Your operation is: ")
+    operation = input("\nYour operation is: ")
     if operation == "exit":
         break
     result = 0
@@ -33,8 +33,10 @@ while True:
 
         elif operation == "**":
             result = operand_1 ** operand_2
+        else:
+            print("Error: An invalid character was entered!")
 
-        print(f"Your result = {result}")
+        print(f"Your result = {result}\n")
     # block error
     except ZeroDivisionError:
         print('Are you serious??!')
