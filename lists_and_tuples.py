@@ -22,6 +22,5 @@ complete_list = [element if type(element) == float
 
 ]
 
-
 print(f"Change list: {complete_list}")  # [1, 2.1, -1, '6', 9, '3', 18, -1]
 
