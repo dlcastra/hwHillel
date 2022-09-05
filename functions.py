@@ -97,14 +97,16 @@ print(get_sum_list(i))
 
 def while_sum_list(user_list):
 
+    list_length = len(user_list)
     sum_numbers = 0
-    while 1:
+    count = 0
 
-        sum_numbers += sum(user_list)
-        break
+    while count < list_length:
+        sum_numbers = sum_numbers + user_list[count]
+        count = count + 1
 
     return sum_numbers
-    # print(sum_numbers)
+
 print(while_sum_list([1,2,3,34,5,6,7]))
 
 #############################
