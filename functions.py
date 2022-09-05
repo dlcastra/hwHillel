@@ -1,6 +1,6 @@
-################
-## First task ##
-################
+#################
+### First task ##
+#################
 
 def get_sum(start, end):
     if start > end:
@@ -14,9 +14,9 @@ def get_sum(start, end):
 print(get_sum(3,67))
 print(get_sum(67,3))
 
-#################
-## Second task ##
-#################
+##################
+### Second task ##
+##################
 
 def seconds_conversion(user_time):
 
@@ -36,80 +36,93 @@ def seconds_conversion(user_time):
 times = int(input("Enter number in seconds"))
 seconds_conversion(times)
 
-###########################
-## Task three, point one ##
-###########################
+############################
+### Task three, point one ##
+############################
 
-def all_even_and_odd(user_number): # all even and odd numbers from 0 to "user_number"
+### first version ###
 
-    even_numbers = ''
-    odd_numbers = ''
+def sum_list(user_number):
 
-    for number in range(user_number):
+    sum_numbers = 0
+    words_and_numbers = []
 
-        if number % 2 == 0:
+    for element in user_number:
 
-            even_numbers += str(number) + "; "
-        else:
-            odd_numbers += str(number) + "; "
+        if isinstance(element, int):
+            sum_numbers += element
 
-    print(f"It is your even numbers: {even_numbers}\nIt is your odd numbers: {odd_numbers}")
+        elif isinstance(element, str):
 
-## Exemple
+            if element.isdigit():
+                new_num = int(element)
+                sum_numbers += new_num
 
-# all_even_and_odd(12)
-# It is your even numbers: 0; 2; 4; 6; 8; 10;
-# It is your odd numbers: 1; 3; 5; 7; 9; 11;
+            if element.isalpha():
+                words_and_numbers.append(element)
 
-some_numbers = int(input("Enter numbers: "))
-operation = all_even_and_odd(some_numbers)
+    print(words_and_numbers)
+    return sum_numbers
 
-###########################
-## Task three, point two ##
-###########################
+print(sum_list([1,2,3,'4','ksdjk']))
 
-def password(user_password):
+i = input('Your list: ').split()
+print(sum_list(i))
 
-    library = user_password
-    counter = 0
+### Second version ###
 
+def get_sum_list(user_number):
+
+    sum_numbers = 0
+
+    for element in user_number:
+
+        if isinstance(element, int):
+            sum_numbers += element
+
+        elif isinstance(element, str):
+
+            new_num = int(element)
+            sum_numbers += new_num
+
+    return sum_numbers
+print(get_sum_list([1,2,3,'4']))
+
+i = input('Your list: ').split()
+print(get_sum_list(i))
+
+############################
+### Task three, point two ##
+############################
+
+def while_sum_list(user_list):
+
+    sum_numbers = 0
     while 1:
 
-        user_password = input("Enter your password if you want open this page: ")
-        if user_password != library:
+        sum_numbers += sum(user_list)
+        break
 
-            counter += 1
+    return sum_numbers
+    # print(sum_numbers)
+print(while_sum_list([1,2,3,34,5,6,7]))
 
-            if counter < 3:
-                print("Try again")
-
-            if counter == 3:
-                print("Page is blocked")
-                break
-
-        if user_password == library:
-            print("Well done")
-            break
-
-op = input("Create your password: ")
-password(op)
+#############################
+## Task three, point three ##
+#############################
 
 
-def check_password(user_password):
 
-    first_input = user_password
-    library = first_input
+######################
+## Task number four ##
+######################
 
-
-    while 1:
-
-        user_password = input("Enter the password a second time: ")
-        if user_password != library:
-            print("Try again")
-
-        if user_password == library:
-            print("Well done")
-            break
-
-operation_1 = input("Create your password: ")
-check_password(operation_1)
+# def fib(n):
+#
+#     if n <= 1:
+#         return n
+#
+#     else:
+#         return fib(n - 1) + fib(n - 2)
+#
+# print(fib(20))
