@@ -88,7 +88,7 @@ def get_sum_list(user_number):
     return sum_numbers
 print(get_sum_list([1,2,3,'4']))
 
-i = input('Your list: ').split()
+i = input('Your list: ')
 print(get_sum_list(i))
 
 ############################
