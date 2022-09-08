@@ -11,6 +11,7 @@ def get_sum(start, end):
         values = sum(range(start, end + 1))
     return values
 
+
 print(get_sum(3,67))
 print(get_sum(67,3))
 
@@ -32,6 +33,7 @@ def seconds_conversion(user_time):
     seconds = user_time
 
     print(f"Days: {days}\nHours: {hours}\nMinutes: {minutes}\nSeconds: {seconds}")
+
 
 times = int(input("Enter number in seconds"))
 seconds_conversion(times)
@@ -135,6 +137,7 @@ def fib(n):
     else:
         return fib(n - 1) + fib(n - 2)
 
+
 print(fib(20))
 
 ######################
@@ -149,7 +152,6 @@ def first_layer(ingredients):
     return ingredients
 
 
-@first_layer
 def second_layer(ingredients):
 
     print("Meat")
@@ -157,7 +159,6 @@ def second_layer(ingredients):
     return ingredients
 
 
-@second_layer
 def third_layer(ingredients):
 
     print("Cheese")
@@ -165,7 +166,6 @@ def third_layer(ingredients):
     return ingredients
 
 
-@third_layer
 def four_layer(ingredients):
 
     print("Bread\n")
@@ -175,6 +175,9 @@ def four_layer(ingredients):
 
 
 @four_layer
+@third_layer
+@second_layer
+@first_layer
 def sandwich(ingredients):
 
     return ingredients
