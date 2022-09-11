@@ -28,7 +28,7 @@ with open('schedule.csv', 'w', newline='') as fh:
         'destination point': 'Odessa',
 
         'departure time': "14:00",
-        'arrival time': 5,
+        'arrival time': "5 hours",
 
         'cost ticket': '1200 UAH'
 
@@ -43,7 +43,7 @@ with open('schedule.csv', 'w', newline='') as fh:
         'destination point': 'Ternopil',
 
         'departure time': "12:00",
-        'arrival time': 7,
+        'arrival time': "7 hours",
 
         'cost ticket': '1800 UAH'
 
@@ -58,7 +58,7 @@ with open('schedule.csv', 'w', newline='') as fh:
         'destination point': 'Kiev',
 
         'departure time': "10:00",
-        'arrival time': 12,
+        'arrival time': "12 hours",
 
         'cost ticket': '2500 UAH'
 
