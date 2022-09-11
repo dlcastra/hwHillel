@@ -1,0 +1,29 @@
+[
+    {
+        "arrival time": "5",
+        "cost ticket": "1200 UAH",
+        "departure point": "Kiev",
+        "departure time": "14:00",
+        "destination point": "Odessa",
+        "name": "Joni",
+        "surname": "Poll"
+    },
+    {
+        "arrival time": "7",
+        "cost ticket": "1800 UAH",
+        "departure point": "Odessa",
+        "departure time": "12:00",
+        "destination point": "Ternopil",
+        "name": "Gustav",
+        "surname": "Anderson"
+    },
+    {
+        "arrival time": "12",
+        "cost ticket": "2500 UAH",
+        "departure point": "Ternopil",
+        "departure time": "10:00",
+        "destination point": "Kiev",
+        "name": "Jason",
+        "surname": "Statham"
+    }
+]
