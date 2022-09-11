@@ -1,4 +1,4 @@
 name,surname,departure point,destination point,departure time,arrival time,cost ticket
-Joni,Poll,Kiev,Odessa,14:00,5,1200 UAH
-Gustav,Anderson,Odessa,Ternopil,12:00,7,1800 UAH
-Jason,Statham,Ternopil,Kiev,10:00,12,2500 UAH
+Joni,Poll,Kiev,Odessa,14:00,5 hours,1200 UAH
+Gustav,Anderson,Odessa,Ternopil,12:00,7 hours,1800 UAH
+Jason,Statham,Ternopil,Kiev,10:00,12 hours,2500 UAH
