@@ -17,7 +17,7 @@ def saving_in_json():
     print(f"{save_data = }\n")
 
 
-saving_in_json()
+# saving_in_json()
 
 
 # Task 4.2
@@ -32,7 +32,7 @@ def read_and_save():
     print(f'{put.status_code = }\n')
 
 
-read_and_save()
+# read_and_save()
 # Task 4.3
 
 some_url = 'https://stackoverflow.com/'
@@ -48,7 +48,7 @@ def html_code():
         url_code.write(change_type)
 
 
-html_code()
+# html_code()
 
 
 ########################################################################################################################
@@ -59,7 +59,7 @@ def encod_type():
     print(encoding_type)
 
 
-encod_type()
+# encod_type()
 
 
 ########################################################################################################################
@@ -73,4 +73,13 @@ def download_pic():
         sunset.write(picture.content)
 
 
-download_pic()
+# download_pic()
+
+def function_call():
+    saving_in_json()
+    read_and_save()
+    html_code()
+    encod_type()
+    download_pic()
+
+function_call()

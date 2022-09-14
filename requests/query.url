@@ -26,7 +26,7 @@
     <script src="https://cdn.sstatic.net/Js/stub.en.js?v=0e3ada576039"></script>
 
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Shared/stacks.css?v=b7b881f7da13">
+    <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Shared/stacks.css?v=3adb22599d80">
     <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=0ff703b79c52">
 
 
@@ -120,12 +120,12 @@
         
 
 
-    <script type="application/json" data-role="module-args" data-module-name="Shared/options.mod">{"options":{"locale":"en","serverTime":1662914718,"routeName":"Home/Index","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"fd2f24042768a5621253b3dc7b44f89bbceba999928b9c837f606f684735fa17","tid":"6de2397b-c63e-7ca9-7d67-bb26dafb6d60","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"e07884e71a43"}}</script>
+    <script type="application/json" data-role="module-args" data-module-name="Shared/options.mod">{"options":{"locale":"en","serverTime":1663140282,"routeName":"Home/Index","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q\u0026A for professional and enthusiast programmers","isNoticesTabEnabled":true,"enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"cookieDomain":".stackoverflow.com","childUrl":"https://meta.stackoverflow.com","negativeVoteScoreFloor":null,"enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"fd2f24042768a5621253b3dc7b44f89bbceba999928b9c837f606f684735fa17","tid":"9ef3d800-bd2f-2af3-f22d-dcecc157b302","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"svgIconPath":"https://cdn.sstatic.net/Img/stacks-icons","svgIconHash":"e07884e71a43"}}</script>
 <script type="application/json" data-role="module-args" data-module-name="Shared/settings.mod">{"settings":{"userMessaging":{"showNewFeatureNotice":true},"tags":{},"subscriptions":{"defaultBasicMaxTrueUpSeats":250,"defaultFreemiumMaxTrueUpSeats":50,"defaultMaxTrueUpSeats":1000},"snippets":{"renderDomain":"stacksnippets.net","snippetsEnabled":true},"site":{"allowImageUploads":true,"enableImgurHttps":true,"enableUserHovercards":true,"forceHttpsImages":true,"styleCode":true},"questions":{"enableQuestionTitleLengthLiveWarning":true,"maxTitleSize":150,"questionTitleLengthStartLiveWarningChars":50},"intercom":{"appId":"inf0secd","hostBaseUrl":"https://stacksnippets.net"},"paths":{"jQueryUICSSPath":"https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/smoothness/jquery-ui.css","jQueryUIJSPath":"https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"mentions":{"maxNumUsersInDropdown":50},"markdown":{"enableTables":true},"legal":{"oneTrustConfigId":"c3d9f1e3-55f3-4eba-b268-46cee4c6789c"},"flags":{"allowRetractingCommentFlags":true,"allowRetractingFlags":true},"elections":{"opaVoteResultsBaseUrl":"https://www.opavote.com/results/"},"comments":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true}}}</script>
 <script>StackExchange.init();</script>
 
     <script>
-        StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"e7855bee94f2","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"151a9f16460d","Js/full.en.js":"39a387e9afb9","Js/highlightjs-loader.en.js":"a284064706b3","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"2f1ad72aba2b","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"d5efdefd09e8","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"8efd1b5227cd","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"d181081dd317","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"9878e6b8fd51","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
+        StackExchange.using.setCacheBreakers({"Js/adops.en.js":"6da43f5e0a84","Js/ask.en.js":"","Js/begin-edit-event.en.js":"dd955babf04d","Js/copy-transpiled.en.js":"e7855bee94f2","Js/events.en.js":"","Js/explore-qlist.en.js":"2b1f34938b8b","Js/full-anon.en.js":"178c086cef2c","Js/full.en.js":"8dd6f030cbdb","Js/highlightjs-loader.en.js":"a284064706b3","Js/inline-tag-editing.en.js":"77f922e6e562","Js/keyboard-shortcuts.en.js":"fa78d9020f1f","Js/markdown-it-loader.en.js":"5818ef89ff9d","Js/moderator.en.js":"df5a2eb14f4c","Js/postCollections-transpiled.en.js":"529276cfb7ae","Js/post-validation.en.js":"a49eba10a0e2","Js/question-editor.en.js":"","Js/review-v2-transpiled.en.js":"d5efdefd09e8","Js/revisions.en.js":"a86490719687","Js/stacks-editor.en.js":"c20d7042a85e","Js/tageditor.en.js":"825c9597ce2d","Js/tageditornew.en.js":"4340d4f2a34c","Js/tagsuggestions.en.js":"1bcff7d98f97","Js/unlimited-transpiled.en.js":"7ed67670b600","Js/wmd.en.js":"eb32618f2599","Js/snippet-javascript-codemirror.en.js":"73fce5cc7219"});
         StackExchange.using("gps", function() {
              StackExchange.gps.init(false);
         });
@@ -362,25 +362,6 @@ your communities            </h3>
         StackExchange.scrollPadding.setPaddingTop(50, 10); 
     </script>
 
-
-                
-    <div id="announcement-banner" class="js-announcement-banner bg-black-700 fc-white ff-sans fs-body2 py2"
-         data-campaign="2022-09-06.the-flow-state" data-cookie="notice-tfs" data-expire-date="1663905600000">
-        <div class="d-flex jc-space-between wmx12 mx-auto px16 py8">
-            <div class="flex--item mr12">
-                 <a target="_blank"
-                   class="s-link js-link js-gps-track fw-bold fc-blue-300" href="https://flowstate.stackoverflow.co/?utm_source=product&amp;utm_medium=house-ads&amp;utm_campaign=flow-state-2022&amp;utm_content=register" data-ga="[&quot;the-flow-state&quot;,&quot;Announcement Banner&quot;,&quot;https://flowstate.stackoverflow.co/?utm_source=product&amp;utm_medium=house-ads&amp;utm_campaign=flow-state-2022&amp;utm_content=register&quot;,null,{&quot;dimension4&quot;:&quot;the-flow-state&quot;}]"
-                   data-gps-track="announcement_banner.click({campaign: &#x27;2022-09-06.the-flow-state&#x27;, location: 1, action: 2})">Register to virtually attend our inaugural conference focused on our products, with relevant content for all developers everywhere.</a>
-            </div>
-            <a class="flex--item fc-white js-dismiss js-gps-track" href="#" title="dismiss"
-               data-gps-track="announcement_banner.click({campaign: &#x27;2022-09-06.the-flow-state&#x27;, location: 1, action: 1})"><svg aria-hidden="true" class="m0 svg-icon iconClear" width="18" height="18" viewBox="0 0 18 18"><path d="M15 4.41 13.59 3 9 7.59 4.41 3 3 4.41 7.59 9 3 13.59 4.41 15 9 10.41 13.59 15 15 13.59 10.41 9 15 4.41Z"/></svg></a>
-        </div>
-    </div>
-    <script>
-        StackExchange.ready(function () {
-            StackExchange.Notice.announcementBannerInit();
-        });
-    </script>
 
 
 
@@ -1706,7 +1687,7 @@ window.onload = function () {
                 </ul>
 
                 <p class="md:mb0">
-Site design / logo &#169; 2022 Stack Exchange Inc; user contributions licensed under <span class='td-underline'><a href="https://stackoverflow.com/help/licensing">CC BY-SA</a></span>.                    <span id="svnrev">rev&nbsp;2022.9.9.42970</span>
+Site design / logo &#169; 2022 Stack Exchange Inc; user contributions licensed under <span class='td-underline'><a href="https://stackoverflow.com/help/licensing">CC BY-SA</a></span>.                    <span id="svnrev">rev&nbsp;2022.9.13.42974</span>
                 </p>
             </div>
         </div>
@@ -1725,7 +1706,10 @@ Site design / logo &#169; 2022 Stack Exchange Inc; user contributions licensed u
                         'UA-108242619-1'
                     ],
                     checkDimension: 'dimension42'
-                            };
+                                                    };
+
+                var customGA4Dimensions = {};
+
 
                 var ga4Settings = {
                     tracker: undefined,
@@ -1733,8 +1717,10 @@ Site design / logo &#169; 2022 Stack Exchange Inc; user contributions licensed u
                         'G-WCZ03SZFCQ'
                     ],
                     consentsToPerformanceCookies: "denied",
-                    consentsToTargetingCookies: "denied"
-                            };
+                    consentsToTargetingCookies: "denied",
+                    eventParameters: customGA4Dimensions,
+                    checkForAdBlock: true
+                };
 
                 StackExchange.ga.init({ GA3: ga3Settings, GA4: ga4Settings });
 
@@ -1744,7 +1730,7 @@ Site design / logo &#169; 2022 Stack Exchange Inc; user contributions licensed u
                 StackExchange.ga.setDimension('dimension3', 'Home/Index');
 
 
-                    StackExchange.ga.setDimension('dimension7', "1662914718.781206290");
+                StackExchange.ga.setDimension('dimension7', "1663140282.1467231972");
 
                 StackExchange.ga.trackPageView();
             });
