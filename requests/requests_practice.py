@@ -82,4 +82,5 @@ def function_call():
     encod_type()
     download_pic()
 
+
 function_call()
