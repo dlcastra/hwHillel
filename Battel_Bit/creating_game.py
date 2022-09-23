@@ -52,11 +52,6 @@ class Army:
         target_obj.health = target_obj.health
         attacker_obj.health = attacker_obj.health
 
-        print(f"{index_target=}\n{index_attacker=}")
-        print(
-            f"len string index_attacker: {len(self.team)}\n"
-            f"len string index_target {len(target.team)}"
-        )
 
         # shows the state of the target
         print(
