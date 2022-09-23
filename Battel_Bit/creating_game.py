@@ -91,22 +91,13 @@ def fight():
     blue_army = Army(units, 'blue_army')
 
     while len(red_army.team) or len(blue_army.team) != 0:
-        r = random.randint(10,100)
 
-        if r % 2 == 1:
-            red_army.attack(blue_army)
-
-        elif r % 2 == 0:
-            blue_army.attack(red_army)
+        red_army.attack(blue_army)
 
         if not (red_army.team and blue_army.team):
             break
 
-        if r % 2 == 0:
-            blue_army.attack(red_army)
-
-        elif r % 2 == 1:
-            red_army.attack(blue_army)
+        blue_army.attack(red_army)
 
     print(
         f"{red_army.name if red_army.team else blue_army.name}".title(),
