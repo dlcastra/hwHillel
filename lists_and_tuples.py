@@ -1,8 +1,8 @@
 # First task
 
-# value = input("Input your sentence").split()
-#
-# print(value[2::3])
+value = input("Input your sentence").split()
+
+print(value[2::3])
 
 # Second task
 
