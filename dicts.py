@@ -55,8 +55,7 @@ def methods_and_functions():
     new_dict.update({"color4": "Purple"})  # Добавляет новый ключ и элемент если подобных ключей не существует
     new_dict.pop(("number2", "number3"))  # Метод pop() удаляет элемент с указанным именем ключа
     new_dict.popitem()  # Метод popitem() удаляет последний вставленный элемент
-    del new_dict[
-        "number"]  # Ключевое слово del удаляет элемент с указанным именем ключа, del также может полностью удалить словарь
+    del new_dict["number"]  # Ключевое слово del удаляет элемент с указанным именем ключа, del также может полностью удалить словарь
     # new_dict.clear() # Метод clear() очищает словарь
 
     print(f"\nAfter changes\nDict {new_dict}")
